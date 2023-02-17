@@ -97,6 +97,23 @@
         margin-top: 15px;
     }
 }
+
+@media screen and (max-width: 767px) {
+    .navbar-brand {
+     width:170px;
+		
+    }
+	
+}
+
+@media screen and (max-width: 550px) {
+    .navbar-brand {
+     width:130px;
+		
+    }
+	
+}
+
 @media screen and (max-width: 550px) {
     .header .send-section input[type=url] {
         width: 90%;
@@ -104,6 +121,7 @@
     }
 	
 }
+
 @media screen and (max-width: 550px) {
     .header .send-section input[type=text] {
         width: 90%;
@@ -5036,14 +5054,15 @@ input[type=button].btn-block,input[type=reset].btn-block,input[type=submit].btn-
 .navbar-collapse {
     align-items: center;
     flex-basis: 100%;
-    flex-grow: 1
+    flex-grow: 1;
+	font-size:x-large;
 }
 
 .navbar-toggler {
     background-color: transparent;
     border: 1px solid transparent;
     border-radius: 0;
-    font-size: 1.25rem;
+    font-size: 1.8rem;
     line-height: 1;
     padding: 0
 }
