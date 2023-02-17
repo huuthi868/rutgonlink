@@ -87,7 +87,11 @@
     color: #fff;
     background-color: #3269e6;
 }
-
+.header .send-section button[type=submit]:hover {
+    transition: .5s;
+    color: #fff;
+    background-color: #3269e6;
+}
 @media screen and (max-width: 767px) {
     .header .send-section input[type=submit] {
         margin-top: 15px;
