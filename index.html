@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Short URL</title>
+
+
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  <!-- Fontawsome V4.7 CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Main CSS File -->
+  <link rel="stylesheet" href="assets/css/main.css">
+   <link rel="stylesheet" href="assets/css/style.css">
+  
+
+  
+  
+  
+  
+  
+  
+</head>
+
+<body>
+  <div class="loader-container" id="load">
+    <div class="box-loader">
+      <div class="rond first"></div>
+      <div class="rond second"></div>
+    </div>
+  </div>
+  <section class="header">
+    <nav class="container navbar navbar-expand-lg navbar-dark fixed-top mt-3">
+      <a class="navbar-brand" href="#"><img src="assets/img/logo.png" width="170"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+     <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">HOME</a>	
+          </li>        
+          <li class="nav-item">
+            <a class="nav-link" href="#">LOGIN</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">SIGN UP</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container text-center" style="margin-bottom: -72px;height: 44vh;">
+      <div class="content text-white mb-5" >
+        <h1>Rút gọn <span class="font-weight-bold">Links</span></h1>
+        <p style="font-family: coiny-regular;font-size: 18px;font-weight: 600;">Trường cao đẳng kỹ thuật công nghệ quy nhơn	</p>
+      </div>
+      <div class="send-section mt-5">
+       
+
+        <div class="error__msg">
+            <span id="error">You must paste a valed URL</span>
+        </div>
+
+        <form >
+           
+                <input type="text" id="shortener" placeholder="Dán link tại đây" required>
+                <button type="submit" id="submit__btn">Rút gọn!</button>
+				
+           
+        </form>
+
+        <div class="links__container">
+            <!-- <div class="link">
+                <span class="long__link">www.hello.com</span>
+                <span class="short__link">http://sho/link/j8t5</span>
+                <button class="copy__btn">Copy</button>
+            </div> -->
+
+            <!-- <div class="link">
+                <span class="long__link">www.bye.com</span>
+                <span class="short__link">http://sho/link/7hk9</span>
+                <button class="copy__btn">Copy</button>
+            </div> -->
+        </div>
+ 
+      </div>
+	
+    </div>
+	
+  </section>
+  
+  <!-- Bootstap V4.6 JS File -->
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="main.js"></script>
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
